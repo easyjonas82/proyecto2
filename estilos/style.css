@@ -1,0 +1,106 @@
+:root{   /*Asignacion de variables para poder elegir principalmente colores en las clases  color: var(--primario);*/
+
+    --primario: #9c2780;
+    --primarioOscuro: #891190;
+    --secundario: #ffce00;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco: #fff;
+    --negro: #000;
+
+    --fuenteprincipal: 'Staatliches', cursive;
+
+}
+
+html {                      /*Se introducira al inicio del CSS para darle formato a los REM*/
+    font-size: 62.5%;
+    box-sizing: border-box; /*Hace que los pixeles no se modifiquen al aplicar algun paddin o margen*/
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*Variables Globales*/
+
+body{
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuenteprincipal);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.6rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+.logo{
+    max-width: 15%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.navegacion{
+    font-family: var(--fuenteprincipal);
+    background-color: var(--primarioOscuro);
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.navegacion a{
+    color: var(--blanco);
+    font-size: 4rem;
+    
+}
+
+
+.navegacion a:hover{
+    color: var(--secundario);
+}
+
+.footer{
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+    
+}
+
+.footer__titulo{
+    color: #fff;
+}
+
+ 

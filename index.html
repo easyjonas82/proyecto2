@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Se comineza siempre con el head que es el contenido que no se ve y el nombre de la pagina-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd CSS</title> <!--Aqui se coloca el nombre que llevara la pagina-->
+    <link rel="preload" href="/estilos/normalize.css"> <!--Se baja un archivo con el nombre normalize para ajustar los valores de la pagina-->
+    <link rel="stylesheet" href="/estilos/normalize.css"> <!--Normalize se carga y se inicia asi como se enlaza su link-->
+    <link rel="preload" href="/estilos/style.css" as="style"><!--Es necesario colocar el link de referencia del archivo CSS para que se cargue-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="/estilos/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+   
+    <header class="logo">
+        <a href="/index.html">
+            <img src="/img/logo.png" alt="logo_store">  
+        </a>
+             
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace"  href="#">Tienda</a>
+        <a class="navegacion__enlace"  href="/nosotros.html">Nosotros</a>
+    </nav>
+
+    <main>
+        <h1>NUESTROS PRODUCTOS</h1>
+    </main>
+
+    <footer class="footer">
+        <h3 class="footer__titulo">Front End Store - Todos los derechos Reservados 2022.</h3>
+    </footer>
+
+
+</body>
